@@ -1,0 +1,113 @@
+/* Bosh sahifa */
+body {
+    margin: 0;
+}
+.main-navigation h2 {
+    font-family: "League Spartan" ,sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 20px;
+    color: black;
+}
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+.main-navigation__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    position: relative;
+    right: 25px;
+}
+.main-navigation__item a {
+    display: flex;
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+    color: black;
+}
+.main-navigation__item a:hover{
+    color: #005cff;
+}
+.main-navigation__item a.active {
+    color: #005cff;
+}
+.image_main img {
+    width: 130px;
+    height: auto;
+}
+.birga-ic {
+    text-decoration: none;
+}
+.birga-text {
+    font-family: 'Arimo', sans-serif;
+    color: #005cff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+#p-birga {
+    text-align: center;
+    color:darkgrey;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main-header__birga span {
+    color: black;
+}
+.login- button {
+    border-radius: 6px;
+    padding: 12px 15px;
+    background: blue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login- button:hover {
+    background: #2978ff;
+}
+/* /Bosh sahifa */
+/* Biz haqimizda */
+.main h1 {
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: medium;
+    margin-left: 30px;
+}
+.image-biz-haqimizda img{
+    width: 150px;
+    padding: 12px 14px;
+    background: #005cff;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    left:600px;
+}
+.main-section {
+    box-sizing: border-box;
+    margin-right: 102px;
+    margin-left: 102px;
+    
+}
+.main {
+    box-sizing: border-box;
+    margin: 0;
+    padding-inline: 0;
+}
+.main h2 {
+    font-family: 'Arimo' , sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.main p {
+    font-family: 'Arimo',sans-serif;
+    text-align: center;
+}
